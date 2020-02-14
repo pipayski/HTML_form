@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link href="stylesheet.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width">
+		<title>The Sign Up Page for Super Heroes</title>
+		<!-- This is a Sign Up Form for Super Heroes. New Heroes are welcome to register. Villains not allowed. --> 
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-item"><h1>Super Heroes Sign Up Page</h1></div>
+		</div>
+		<form>
+			<form action="index.html" method="post">
+				<fieldset>	
+				<legend><span class="number">1</span> Your Super Info</legend>	
+				<label for="name">Super Hero Name</label><br>
+				<input type="text" id="name" name="user_name"><br>
+				<label for="mail">Super Hero Email</label><br>
+				<input type="mail" id="mail" name="user_email"><br>
+				<label for="password">Super Hero Password</label><br>
+				<input type="password" id="password" name="user_password"><br>
+				<label for="bio"> Tell Us More About Your Super Self</label><br>
+				<textarea id="bio" name="user_bio"></textarea><br>
+				<legend><span class="number">2</span> Your Super Powers</legend>
+				<label for="superpower">What are your superpowers?</label><br><label for="superpower"> Please check all that applies.</label><br>
+				<input type="checkbox" id="strength" value="user_superpower" name="strength"><label class="light" for="strength">Strength</label><br>
+				<input type="checkbox" id="laser_eyes" value="user_superpower" name="laser_eyes"><label class="light" for="laser_eyes">Laser eyes</label><br>
+				<input type="checkbox" id="flying" value="user_superpower" name="flying"><label class="light" for="flying">I can fly</label><br>
+				<input type="checkbox" id="read_minds" value="user_superpower" name="read_minds"><label class="light" for="read_minds">I can read minds</label><br>
+				<input type="checkbox" id="turn_back_time" value="user_superpower" name="turn_back_time"><label class="light" for="turn_back_time">I can turn back time</label><br>
+				<input type="checkbox" id="other" value="user_superpower" name="other"><label class="light" for="other">Other</label><br>
+				<label for="other_superpower">Please specify here</label>
+				<input type="text" class="light" id="other_superpower" name="user_superpower">
+				<button type="submit" class="submit">Sign Up</button>
+				</fieldset>
+			</form>	
+		</form>		
+	</body>
+</html>
